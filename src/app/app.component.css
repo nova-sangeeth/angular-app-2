@@ -1,0 +1,8 @@
+mat-toolbar {
+    justify-content: center;
+    color: rgb(0, 47, 255);
+}
+
+* {
+    border-radius: 5px;
+}
