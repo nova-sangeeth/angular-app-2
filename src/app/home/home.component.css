@@ -1,0 +1,5 @@
+.container {
+    padding: 35px  ;
+    min-height: 100vh;
+    display: flex;
+}

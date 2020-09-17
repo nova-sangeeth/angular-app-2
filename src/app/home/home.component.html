@@ -1,7 +1,7 @@
 <div style="padding: 12px;">
 
     <mat-spinner *ngIf="products.length === 0"></mat-spinner>
-    <mat-card *ngFor="let product of products" style="margin-top: 10px;">
+    <mat-card *ngFor="let product of products" style="margin-top: 10px; background-color:  rgb(47, 206, 255);">
         <mat-card-header>
             <mat-card-title>{{ product.name }}</mat-card-title>
             <mat-card-subtitle>{{ product.price }} $/ {{ product.quantity }}</mat-card-subtitle>
