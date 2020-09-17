@@ -6,8 +6,5 @@ import { retry, catchError, tap } from 'rxjs/operators';
 export class DataService {
 
   constructor() { }
-  public first = '';
-  public prev = '';
-  public next = '';
-  public last = '';
+
 }
